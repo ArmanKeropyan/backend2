@@ -61,8 +61,8 @@ class PostResource(Resource):
 
 
 
-api.add_resource(PostListResource, '/posts')
-api.add_resource(PostResource, '/posts/<int:post_id>')
+api.add_resource(PostListResource, '/post')
+api.add_resource(PostResource, '/post/<int:post_id>')
 
 if __name__ == '__main__':
     with app.app_context():
