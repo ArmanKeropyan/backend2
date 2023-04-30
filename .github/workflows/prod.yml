@@ -9,8 +9,8 @@ on:
       - master
 
 jobs:
-  build-and-deploy:
-    name: Build and Deploy
+  build-and-deploy-test:
+    name: Build and Deploy Test
     runs-on: ubuntu-latest 
     steps:
     - name: Checkout code
